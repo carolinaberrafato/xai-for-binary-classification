@@ -1,12 +1,13 @@
-## Summary
-This project explores several Explainable AI (xAI) techniques applied to a binary classification problem: identifying Glioma types. Gliomas are the most common brain tumor types, and can be graded as LGGs (Lower-Grade Glioma) or GBMs (Glioblastoma Multiforme). It was developed for the course IF807 - Responsible AI.
+# xAI for Binary Classification
 
-Author: Carolina Berrafato
+This project explores several **Explainable AI (xAI)** techniques applied to a binary classification problem: identifying Glioma types. Gliomas are the most common brain tumor types, and can be graded as LGGs (Lower-Grade Glioma) or GBMs (Glioblastoma Multiforme). It was developed for the course IF807 - Responsible AI.
+
+**Author: Carolina Berrafato**
 
 ## Methodology
 
 1. Five Machine Learning models were trained using scikit-learn: Decision Tree, Random Forest, Logistic Regression, k-Nearest Neighbours (kNN), and Support Vector Classifier (SVC).
-2. As requested for the assignment, I explored some Decision Tree rules by calculating coverage and confidence levels for some nodes.
+2. As requested for the assignment, I explored some Decision Tree rules by calculating **coverage and confidence** levels for some nodes.
 3. The best model based on its F1-Score was chosen (Logistic Regression), so the xAI methods could be applied.
  
     - *F1-Score was chosen as the main metric because in a real scenario, not only errors could lead to serious consequences, but also molecular tests are expensive. Thus, balancing precision and recall is crucial and prioritized over accuracy.*
